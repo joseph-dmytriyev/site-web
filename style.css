@@ -1,0 +1,46 @@
+h1{
+    color: rgb(248, 8, 24);
+    font-family: "Courier New", Courier, monospace;
+    border: 5px transparent rgb(0, 1, 14);
+}
+
+
+h2{
+    color: rgb(193, 190, 193);
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+p {
+    font-family: "Brush Script MT", cursive;
+    color: rgb(238, 241, 243);
+    font-size: larger;
+}
+
+body{
+   text-align: center;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+
+.bor{
+    border:2px solid coral
+}
+
+
+.logo {
+    position: relative;
+    bottom: 0px;
+    left: -1px;
+
+}
+
+body{
+    background-image: url("https://img.freepik.com/photos-gratuite/sommet-montagne-enneige-sous-ia-generative-majeste-galaxie-etoilee_188544-9650.jpg?semt=ais_hybrid");
+background-size: cover;
+background-repeat: no-repeat ;
+background-position: center;
+}
+

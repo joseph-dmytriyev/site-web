@@ -1,0 +1,108 @@
+h3{
+   font-family:Copperplate, Papyrus, fantasy;
+}
+.barhorizontal {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.barrecherche{
+    border-radius: 15px;
+    padding:3px;
+    border:1px solid #1b1919
+    
+}
+
+.barhorizontal{
+    background-color: rgb(94, 94, 94);
+    padding: 40px;
+}
+
+
+
+h1{
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+html{
+    
+        border-width: 30px;                                                     
+        border-style: solid;
+        border-color: rgb(226, 227, 229);
+}
+.Ac{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: larger;
+}
+
+body{
+    background-color: rgb(189, 197, 197);
+}
+
+.lignesep{
+    border-top: 1px solid;
+    width:1420px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.imageA img{
+    width: 200px;
+    height: 145px;
+    margin:10px;
+   
+ }
+  
+
+ .imageA {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+ }
+.titre4{
+    text-align: center;
+}
+
+
+
+
+
+
+.imageB {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+
+}
+.imageB img{
+    width: 200px;
+    height: 145;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.barrecherche {
+    width: 100%; /* Faire en sorte que la barre prenne toute la largeur disponible */
+    max-width: 275px; /* Largeur maximale de la barre de recherche */
+    padding: 8px; /* Ajouter du rembourrage intérieur pour un meilleur confort */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 25px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre portée */
+    font-size: 16px; /* Taille de police */
+  
+}
+
+
+
+

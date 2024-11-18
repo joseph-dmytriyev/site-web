@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(189, 197, 197);
+}
+
+
+
+
+/* Style pour le conteneur du formulaire de contact */
+.contact {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centrer le conteneur */
+    padding: 20px; /* Rembourrage intérieur */
+    background-color: #fff; /* Couleur de fond blanche */
+    border-radius: 8px; /* Bords arrondis */
+    
+}
+
+/* Style pour le titre */
+h2 {
+    text-align: center; /* Centrer le texte */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour les sections du formulaire */
+.formulaire div {
+    margin-bottom: 15px; /* Espace en bas de chaque section */
+}
+
+/* Style pour les labels */
+label {
+    display: block; /* Affichage en bloc */
+    margin-bottom: 5px; /* Espace en bas du label */
+    color: #555; /* Couleur du texte */
+}
+
+/* Style pour les champs de texte et les menus déroulants */
+input[type="text"],
+select {
+    width: 100%; /* Largeur à 100% du conteneur parent */
+    padding: 8px; /* Rembourrage intérieur */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Bords arrondis */
+    box-sizing: border-box; /* Inclure le rembourrage et la bordure dans la largeur totale */
+}
+
+
+
+/* Style pour le bouton de soumission */
+input[type="button"] {
+    display: block; /* Affichage en bloc */
+    width: 100%; /* Largeur à 100% du conteneur parent */
+    padding: 10px; /* Rembourrage intérieur */
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanche */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Bords arrondis */
+    cursor: pointer; /* Curseur en forme de pointeur */
+    text-align: center; /* Centrer le texte */
+}
+
+/* Style pour l'effet de survol du bouton de soumission */
+input[type="button"]:hover {
+    background-color: #45a049; /* Couleur de fond verte légèrement plus foncée */
+}
+
+
+
